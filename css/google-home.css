@@ -1,0 +1,72 @@
+/*
+Here lies the styling for the OVERALL PAGE
+*/
+
+.nav li {
+  display: inline;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 89px;
+}
+
+/*
+Here lies the styling for the NAVIGATION BARS
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-top, .nav-bottom {
+  padding: 5px;
+}
+
+.top-right-nav {
+  float: right;
+}
+
+.top-left-nav {
+  float: left;
+}
+
+.bottom-left-nav {
+  float: left;
+}
+
+.bottom-right-nav {
+  float: right;
+}
+
+/*
+Here lies the styling for the MAIN CONTENT
+*/
+
+.google-image {
+  width: 384px;
+  height: 216px;
+}
+
+button {
+  padding: 5px 10px 5px 10px;
+}
+
+/*
+Here lies the styling for the ACTIONS
+*/
