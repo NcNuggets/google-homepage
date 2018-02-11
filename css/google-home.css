@@ -2,14 +2,9 @@
 Here lies the styling for the OVERALL PAGE
 */
 
-.nav li {
-  display: inline;
-}
-
-.center {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 89px;
+body, html {
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -20,6 +15,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: inline-block;
 }
 
 a {
@@ -34,24 +30,69 @@ a:hover {
   text-decoration: underline;
 }
 
-.nav-top, .nav-bottom {
-  padding: 5px;
+.google-apps:hover {
+  opacity: 1;
 }
 
-.top-right-nav {
+.nav li {
+  display: inline;
+  padding: 0 7px 0 7px;
+}
+
+.nav {
+  padding: 10px;
+}
+
+.nav-top {
+  padding: 15px 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav-top img {
+  height: 15px;
+  width: 15px;
+}
+
+.nav-top-right {
   float: right;
 }
 
-.top-left-nav {
+.nav-top-left {
   float: left;
 }
 
-.bottom-left-nav {
+.nav-bottom {
+  padding: 15px 25px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.08);
+  border-top-color: rgba(0,0,0,0.08);
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+
+.nav-bottom-left {
   float: left;
 }
 
-.bottom-right-nav {
+.nav-bottom-right {
   float: right;
+}
+
+.button-sign-in {
+  padding: 8px 13px;
+  border-radius: 3px;
+  box-shadow: rgba(0,0,0,15);
+  border-color: rgb(66, 133, 244);
+  background-color: rgb(66, 133, 244);
+  color: rgba(255,255,255,100);
+  font-weight: bold;
+  border-style: none;
 }
 
 /*
@@ -61,10 +102,61 @@ Here lies the styling for the MAIN CONTENT
 .google-image {
   width: 384px;
   height: 216px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 89px;
+  display: block;
 }
 
-button {
-  padding: 5px 10px 5px 10px;
+.search {}
+
+.search-form {
+  text-align: center;
+}
+
+.search-box {
+  padding: 8px 12px;
+  border: solid 1px;
+  border-color: rgba(0,0,0,0.10);
+  max-width: 25%;
+  min-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 1px 1px rgba(0,0,0,0.40);
+}
+
+.search-text {
+  display: inline-block;
+  border-style: none;
+  font-size: 18px;
+  max-width: 500px;
+  min-width: 475px;
+}
+
+.buttons-both {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+}
+
+button.button-search, button.button-lucky {
+  padding: 0 16px;
+  margin: 11px 4px;
+  font-size: 15px;
+  color: #757575;
+  font-weight: bold;
+  border-radius: 2px;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  line-height: 27px;
+  height: 36px;
+}
+
+.google-mic {
+  height: 18px;
+  width: auto;
+  display: inline-block;
 }
 
 /*
